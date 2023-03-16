@@ -1,0 +1,181 @@
+/*css génèrale*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: arial,verdana,sans-serif;
+    width: 960px;
+    font-size: 14px;
+}
+
+.boite{
+    margin-left: 50px;
+}
+
+h1{
+    padding-top: 25px;
+    color: #aa3322;
+    font-size: 20px;
+}
+
+h2{
+    padding-top: 45px;
+    color: #000000;
+    font-size: 24px;
+}
+
+h3{
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+p{
+    padding-top: 20px;
+    color: #000000;
+    font-size: 14px;
+}
+
+.lien{
+    color: #aa3322;
+    font-size: 14px;
+    text-decoration: none;
+}
+.lien:hover{
+    color: #aaaaaa;
+}
+
+ul{
+list-style-type: none;
+}
+/*css fin génèrale*/
+
+/* css header*/
+.Menu{
+    background-color: #aa3322;
+    padding: 5px 0;
+}
+.Menu ul li{
+    border-bottom: dashed 1px #cccccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav a{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 50px;
+    text-decoration: none;
+} 
+
+nav a:hover{
+    color: #ffffff;
+}
+/* css fin header*/
+
+/* css debut section boite*/
+h3 > span{
+    font-style: italic;
+}
+
+p#texte{
+ padding-top: 0;
+}
+/* css fin section boite*/
+
+/* css footer*/
+footer{
+    background-color: #aaaaaa;
+    height: 50px;
+    margin-top: 80px;
+}
+.adresse{
+    color: #721717;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 22px;
+
+}
+/* css fin footer*/
+
+.carte{
+    margin: 15px 0;
+}
+
+table{
+    border-collapse: collapse;
+    border : 1px solid #aa3322;
+    font-size: 12px;
+    width: 70%;
+}
+
+caption{
+    font-size: 14px;
+    margin:15px 0;   
+    text-align: left;
+}
+
+th{
+    padding: 5px 0;
+}
+
+td{
+    padding: 5px 0;
+    text-align: center;
+}
+
+
+figcaption{
+    font-size: 14px;
+    margin:15px 0;   
+}
+
+.images ul li{
+    display: inline;
+    margin-right: 25px;
+}
+
+li #homere{
+    height: 150px;
+}
+
+blockquote{
+    margin-left: 40px;
+}
+
+blockquote p{
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+}
+.bloc1{
+    background-color: #ededed;
+    border: 1px dashed #aa3322;
+    height: 90px;
+    width: 55%;
+    margin-top: 15px;
+}
+
+.bloc2{
+    background-color: #ededed;
+    border: 1px dashed #aa3322;
+    height: 70px;
+    width: 55%;
+    margin-top: 15px;
+}
+
+.bloc3{
+    background-color: #ededed;
+    border: 1px dashed #aa3322;
+    height: 50px;
+    width: 55%;
+}
+
+.citation2{
+    position:relative;
+    bottom: 3px;
+    left: 20px;
+}
+
+
