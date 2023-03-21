@@ -1,0 +1,224 @@
+ /*style generaux*/
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+   font-size: 1em;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+ }
+
+ h3, em{
+   font-style: normal;
+   font-weight: bold;
+ }
+
+ em{
+   color: #284e94;
+ }
+
+ p{
+   color: white;
+ }
+
+ button{
+   border: none;
+   background-color: white;
+   padding-left: 5px;
+ }
+
+/* container principale */
+
+ .container-principale{
+   display: flex;
+   flex-direction: row;
+   max-width: 100%;
+   height: 100vh;
+   background-color: hsl(0, 0%, 96%);
+   overflow: auto;
+ }
+
+ /* contenu gauche */
+
+ .contenu-gauche{
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   box-shadow: 10px 5px 5px #e1e1e1;
+   padding-right: 80px;
+ }
+/* contenu droit */
+
+.contenu-droit{
+   display: flex;
+   flex-flow: row wrap;
+   margin: 40px 50px;
+}
+
+/*style header*/
+
+#bp{
+   width: 200px;
+   margin: 40px 25px;
+}
+
+header li{
+   list-style: none;  
+   padding-bottom: 10px;
+}
+
+header li a{
+   display: block;
+   padding: 10px 20px;
+   color: white;
+   text-decoration: none;
+   background-color: #284e94;
+   border-radius: 0 45px 45px 0;
+}
+header a:hover{
+   background-color: #223f77;
+}
+
+/* style footer */
+
+footer {
+   margin-top: 40px;
+   margin-bottom: 100px;
+}
+
+footer li{
+   list-style: none;
+   padding-bottom: 5px;
+}
+
+footer li a{
+   text-decoration: none;
+   padding-left:25px;
+   color: #616161;
+}
+/* style section generaux */
+
+section{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   background-color: white;
+   width: 930px;
+   border-radius: 15px;
+   padding: 20px 20px;
+   margin-right: 30px;
+   margin-bottom: 15px;
+   box-shadow: 10px 5px 5px #e1e1e1;
+}
+
+section p{
+   font-size: 0.7em;
+   color: #d8d7d8;
+}
+
+section h3,em{
+   font-size: 0.8em;
+}
+
+.icones{
+   font-size: 18px;
+   color: #d9d9d9;
+}
+
+.prix{
+   color: #37a15b;
+}
+
+/* section profil */
+
+.profil{
+   width: 450px;
+}
+
+.photo-profil{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   
+}
+
+.infos-compte_1, .infos-compte_2, .donnees-compte{
+   display: flex;
+   flex-direction: row;
+}
+
+.conseiller, .client{
+   margin-right: 25px;
+}
+
+/* section compte*/
+
+
+.icone-illustratif-1{
+   width: 50px;
+   height: 35px;
+   margin-right: 25px;
+}
+
+.icone-illustratif-2{
+   width: 50px;
+   height: 50px;
+   margin-right: 25px;
+}
+
+.prix-decouvert{
+   color: #a63c54;
+}
+
+/* section etat solde*/
+
+.etat-compte{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   width: 460px;
+   margin-right: 0px;
+}
+.solde-compte{
+   display: flex;
+   flex-direction: row;
+   width: 930px;
+}
+
+.depense{
+   margin-left: 10px;
+}
+
+/* section abonnement */
+
+.paiement-automatique
+{
+   display: flex;
+   flex-direction: row;
+   margin-right: 20px;
+}
+
+.donnee-paiement{
+   display: flex;
+   flex-direction: row;
+   border: thin solid #d9d9d9;
+   padding: 5px 8px;
+   border-radius: 35px;
+   margin-left: 8px;
+}
+
+.abonnement{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 0 10px;
+}
+
+.abonnement em,h4{
+   font-size: 0.7em;
+}
